@@ -1,0 +1,125 @@
+*,*:before, *:after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+footer{
+padding-top: 0px;
+background-color: #00A0DC;
+width: 100%;
+height: auto;
+}
+.container{
+max-width: 100%;
+
+}
+.footer__contacts{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+background-color: #00A0DC;
+color: #fff;
+margin-left: 100px;
+}
+.footer__texts{
+font-family: "Marck Script", Georgia,  sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	color: #fff;
+	line-height: 30px;
+	padding-right: 100px;
+}
+.footer__address{
+font-family: "Marck Script", Georgia,  sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	color: #fff;
+	line-height: 30px;
+	margin: 0px 0px 0px 0px;
+
+}
+
+.footer__social{
+	display: block;
+padding:0px 0px 50px 0px;
+margin: 0px 0px 50px 0px;
+align-items: center;
+}
+
+.footer__first__block{
+display: flex;
+flex-wrap: nowrap;
+padding: 25px 100px 25px 100px;
+}
+
+.footer__cocial{
+display: flex;
+}
+.footer__cocial__element__icon{
+	padding-bottom: 5px;
+}
+.footer__cocial__element__text{
+font-family: "Marck Script", Georgia,  sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	padding: 0px 0px 12px 0px;
+	margin: 4px 0px  0px 8px;		
+}
+
+@media(max-width: 991px){
+.footer__contacts{
+flex:33.3%
+
+}
+.footer
+.container
+.footer__contacts
+.footer__first__block
+.footer__texts
+.footer__address
+.footer__cocial
+.footer__cocial__elements
+.footer__cocial__element__icon
+}
+@media(max-width: 768px){
+.footer__contacts{
+flex:50%
+
+}
+.footer
+.container
+.footer__contacts
+.footer__first__block
+.footer__texts
+.footer__address
+.footer__cocial{
+	margin-left: 200px;
+}
+.footer__cocial__elements
+.footer__cocial__element__icon
+}
+@media(max-width: 530px){
+.footer__contacts{
+flex:100%
+
+}
+.footer
+.container
+.footer__contacts{
+	margin: 0px;
+}
+.footer__first__block{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 25px 300px 10px 100px;
+	margin-right: 100px;
+}
+.footer__texts{
+	margin-bottom: 10px;
+}
+
+}
+.footer__cocial{
+	margin-left: 100px;
+}
+.footer__cocial__elements
+.footer__cocial__element__icon
+}

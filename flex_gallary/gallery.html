@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="gall_style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;600&family=Play:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+	<title>adaptive gallery</title>
+</head>
+<body>
+	<div class="gallery__container">
+	<section class="gallery">
+		<h1 class="title">Gallery</h1>
+		<div class="gallery__list">
+			<a href="g1.jpg" class="gallery__item">
+			<div class="gallery__item-hover">посмотреть</div>	
+			<img src="g1.jpg" alt="alt">
+			</a>
+			<a href="g2.jpg" class="gallery__item">
+			<div class="gallery__item-hover">посмотреть</div>	
+			<img src="g2.jpg" alt="alt">
+			</a>
+			<a href="g3.jpg" class="gallery__item">
+			<div class="gallery__item-hover">посмотреть</div>	
+			<img src="g3.jpg" alt="alt">
+			</a>
+			<a href="g4.jpg" class="gallery__item">
+			<div class="gallery__item-hover">посмотреть</div>	
+			<img src="g4.jpg" alt="alt">
+			</a>
+			<a href="g5.jpg" class="gallery__item">
+			<div class="gallery__item-hover">посмотреть</div>	
+			<img src="g5.jpg" alt="alt">
+			</a>
+			<a href="g6.jpg" class="gallery__item">
+			<div class="gallery__item-hover">посмотреть</div>	
+			<img src="g6.jpg" alt="alt">
+			</a>
+			<a href="g7.jpg" class="gallery__item">
+			<div class="gallery__item-hover">посмотреть</div>	
+			<img src="g7
+			.jpg" alt="alt">
+			</a>
+		</div>
+	</section>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js" integrity="sha512-C1zvdb9R55RAkl6xCLTPt+Wmcz6s+ccOvcr6G57lbm8M2fbgn2SUjUJbQ13fEyjuLViwe97uJvwa1EUf4F1Akw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+	$(".gallery__list").magnificPopup({
+		delegate:"a",
+		type: "image",
+		gallery:{
+			enabled:true
+		}
+	});
+</script>
+</body>
+</html>
